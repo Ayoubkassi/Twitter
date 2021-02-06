@@ -1,0 +1,174 @@
+:root{
+
+	--primary: rgb(8,160,233);
+	--background: rgb(116, 202, 254);
+	--secondbg:rgb(232,245,253);
+};
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	max-width: 540px;
+	margin:0 auto;
+}
+
+.verefi{
+	width: 15px;
+	margin-left: 3px;
+}
+
+ul{
+	list-style: none;
+}
+
+
+#na{
+	width: 30px;
+}
+
+#na:hover{
+	cursor: pointer;
+}
+
+.top{
+	margin-left: 255px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 280px;
+}
+
+.pro{
+	color: #fff;
+	background: var(--primary);
+	outline: none;
+	border: none;
+	font-weight: bold;
+	height: 35px;
+	padding: 2px 15px;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 18px;
+	width: 80px;
+	text-align: center;
+	}
+
+.ha{
+
+	color: #fff;
+	background: var(--primary);
+	outline: none;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	margin-right: 8px;
+	padding: 7px 17px;
+	border-radius: 24px;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+
+.bottom{
+	display: flex;
+	flex-direction: column;
+}
+
+.bottom h2{
+	margin-top: 24px;
+	font-weight: bold;
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+
+.bottom p{
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.intere{
+	margin-top: 30px;
+	font-size: 19px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.perso{
+	height: 100px;
+	border-top:1px solid rgb(179, 176, 175);
+	display: flex;
+	flex-direction: column;
+	margin-top: 16px;
+}
+
+.perso .tap{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 8px;
+}
+
+.perso .pir{
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.inp{
+	background: transparent;
+	border: 1px solid var(--primary);
+	margin-right: 8px;
+	padding: 7px 17px;
+	border-radius: 24px;
+	font-size: 16px;
+	font-weight: bold;
+	outline: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.inp:hover{
+	cursor: pointer;
+	background: var(--secondbg);
+}
+
+.left{
+	display: flex;
+}
+
+p#tag{
+	color: rgb(115, 113, 112);
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.nz{
+	font-weight: bold;
+}
+
+.bit{
+	margin-left: 60px;
+	font-size: 17px;
+}
+
+.colo{
+	color: var(--primary);
+}

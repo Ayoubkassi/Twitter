@@ -1,0 +1,150 @@
+:root{
+
+	--primary: rgb(8,160,233);
+	--background: rgb(116, 202, 254);
+	--secondbg:rgb(232,245,253);
+};
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	max-width: 540px;
+	margin:0 auto;
+
+
+}
+
+ul{
+	list-style: none;
+}
+
+
+#my{
+	width: 30px;
+}
+
+#my:hover{
+	cursor: pointer;
+}
+
+.top{
+	margin-left: 255px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 280px;
+}
+
+.bottom{
+	display: flex;
+	flex-direction: column;
+}
+
+.bottom h2{
+	margin-top: 22px;
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+
+a{
+	text-decoration: none;
+	color: var(--primary);
+	font-weight: bold;
+}
+
+p{
+	color: black;
+}
+
+.search{
+	margin: 20px auto;
+	border: 1px solid var(--primary);
+	display: flex;
+	justify-content: space-between;
+	width: 540px;
+	height: 40px;
+	align-items: center;
+	border-radius: 40px;
+}
+
+.search input{
+	width: 440px;
+	border: none;
+	outline: none;
+	margin-right: 40px;
+	margin-left: 20px;
+	height: 26px;
+	font-size: 15px;
+}
+
+.search img{
+	margin-left: 20px;
+	height: 25px;
+	cursor: no-drop;
+}
+
+.fli{
+	margin-bottom: 15px;
+}
+
+.jadi{
+
+	margin-bottom: 15px;
+}
+
+
+
+.fli .title{
+	font-size: 23px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.inpi{
+	background: var(--primary)!important;
+	color: white !important;
+	margin-bottom: 20px;
+}
+
+.bottom input[type="submit"]{
+	background: transparent;
+	border: 1px solid var(--primary);
+	margin-right: 8px;
+	padding: 7px 17px;
+	border-radius: 24px;
+	font-size: 16px;
+	font-weight: bold;
+	outline: none;
+}
+.mz .pro{
+	color: #fff;
+	background: var(--primary);
+	outline: none;
+	border: none;
+	font-weight: bold;
+	height: 35px;
+	padding: 2px 15px;
+	border-radius: 20px;
+	font-size: 18px;
+	width: 140px;
+	text-align: center;
+}
+
+.mz input[type="submit"]{
+		text-align:center;
+		width: 140px;
+	}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+}

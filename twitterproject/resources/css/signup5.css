@@ -1,0 +1,110 @@
+:root{
+
+	--primary: rgb(8,160,233);
+	--background: rgb(116, 202, 254);
+	--secondbg:rgb(232,245,253);
+};
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	max-width: 540px;
+	margin:0 auto;
+
+
+}
+
+ul{
+	list-style: none;
+}
+
+
+img{
+	width: 30px;
+}
+
+img:hover{
+	cursor: pointer;
+}
+
+.pro{
+	color: #fff;
+	background: var(--primary);
+	outline: none;
+	border: none;
+	font-weight: bold;
+	height: 35px;
+	padding: 2px 15px;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 18px;
+	width: 140px;
+	text-align: center;
+	}
+
+.top{
+	margin-left: 255px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 280px;
+}
+
+input[type="submit"]{
+	text-align:center;
+	width: 140px;
+}
+
+.bottom{
+	display: flex;
+	flex-direction: column;
+}
+
+.bottom h2{
+	margin-top: 22px;
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+
+a{
+	text-decoration: none;
+	color: var(--primary);
+	font-weight: bold;
+}
+
+p{
+	color: rgb(91, 112, 131);
+}
+
+.wrapper{
+	margin: 40px auto;
+	position: relative;
+}
+
+.no{
+	height: 200px;
+	width: 200px;
+	background: url('./1.png');
+	background-size: 100% 100%;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.my_file{
+	position: absolute;
+	outline: none;
+	bottom: 100px;
+	right:60px; 
+	color:transparent;
+	width: 0px;
+}
